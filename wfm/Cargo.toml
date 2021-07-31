@@ -1,0 +1,21 @@
+[package]
+name = "rigol-wfm"
+description = "Rigol oscilloscopes waveform file format handling library"
+authors = ["K. <kayo@illumium.org>"]
+license = "MIT"
+version = "0.1.0"
+readme = "README.md"
+keywords = ["rigol", "oscilloscope", "waveform", "parser", "signal"]
+categories = ["parsing", "science"]
+edition = "2018"
+
+[badges.maintenance]
+status = "actively-developed"
+
+[dependencies.nom]
+version = "6"
+
+[dependencies.serde]
+version = "1"
+features = ["derive"]
+optional = true
